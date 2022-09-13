@@ -7,7 +7,7 @@ const logo = document.getElementById('logo')
 // Tabs menu event listener
 tabs.forEach((tab) => tab.addEventListener('click', onTabClick))
 
-// Hamburger button listener
+// // Hamburger button listener
 btn.addEventListener('click', navToggle)
 
 function onTabClick(e) {
